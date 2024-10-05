@@ -1,0 +1,18 @@
+<div class="event-list-wrapper">
+    <h5>Trending</h5>
+    <div clas="row">
+        <div class="col-sm-3" *ngFor="let event of popularEvent">
+            <div class="card" style="width: 18rem;">
+                <img src="{{event.image}}">
+                <div class="card-body">
+                  <h5 class="card-title">{{event.title}}</h5>
+                  <p class="card-text">{{event.desc}}
+                </p>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-danger">Buy Now</a>
+                </div>
+              </div>
+             
+              
+        </div>
+    </div>
